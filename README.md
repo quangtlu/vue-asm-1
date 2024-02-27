@@ -1,8 +1,8 @@
-# Fabbi React Assignment 1
+# Fabbi Vue Assignment 1
 
 <!-- toc -->
 
-- [Fabbi React Assignment 1](#fabbi-react-assignment-1)
+- [Fabbi Vue Assignment 1](#fabbi-vue-assignment-1)
   - [Requirements](#requirements)
     - [Must](#must)
     - [Optional](#optional)
@@ -22,22 +22,23 @@
 
 ### Must
 
-- Use `React`
+- Use `Vue`
 - Use `ES6+`
-- Use `hooks`
+- Use `Composition API`
 
 ### Optional
 
-- Use with [Ant Design](https://ant.design/) or [MaterialUI](https://material-ui.com/)
+- Use with [Tailwind CSS](https://tailwindcss.com/), [Vuetify](https://vuetifyjs.com/en/) or [Element UI
+](https://element-plus.org/en-US/)
 - Use a type system (preferred `typescript`)
 - Write Unit Tests (any testing library, but preferred `jest`)
 - Write Integration Tests
 
 ## Setup
 
-As this test is to evaluate basic `React` skills, we are not be focusing on tooling setup (webpack, babel, etc...).
+As this test is to evaluate basic `Vue` skills, we are not be focusing on tooling setup (webpack, babel, etc...).
 
-So feel free to use [create react app](https://github.com/facebookincubator/create-react-app) to jump-start your development, although if not comfortable custom setup is also welcomed.
+So feel free to use [Vite](https://vitejs.dev/) to jump-start your development, although if not comfortable custom setup is also welcomed.
 
 ## Description
 
@@ -46,7 +47,8 @@ We want to make multiple steps form. This form is aimed to help user pre-order f
 Wireframes for the form are provided in the [wire frames](./wireframes) folder.
 
 ---
-![step 1](./wireframes/Step%201.png "step 1")
+
+![step 1](./wireframes/Step%201.png 'step 1')
 
 ### Step 1
 
@@ -56,7 +58,8 @@ Wireframes for the form are provided in the [wire frames](./wireframes) folder.
 Both of these should be required fields.
 
 ---
-![step 2](./wireframes/Step%202.png "step 2")
+
+![step 2](./wireframes/Step%202.png 'step 2')
 
 ### Step 2
 
@@ -65,7 +68,8 @@ Both of these should be required fields.
 This is also a required field.
 
 ---
-![step 3](./wireframes/Step%203.png "step 3")
+
+![step 3](./wireframes/Step%203.png 'step 3')
 
 ### Step 3
 
@@ -78,7 +82,8 @@ This is also a required field.
 The total number of dishes (i.e Number of dishes \* respective serving) should be greater or equal to the number of people selected in the first step and a maximum of 10 is allowed.
 
 ---
-![step 4](./wireframes/Step%204.png "step 4")
+
+![step 4](./wireframes/Step%204.png 'step 4')
 
 ### Step 4
 
